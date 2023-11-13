@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <title>PARK-CDIO</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <h2 class="logo">Logo</h2>
+            <button class="join"  onclick="joine()">Join CDIO</button>
+        </div>
+          
+            
+    </nav>
+  
+    
+    <div class="right"></div>
+     <div class="incharge">
+        <div class="left"></div>
+        <img src="{% static 'images/user.jpg' %}" alt="" height="100px" width="100px">
+        <div class="prodetail">
+        <h3>STAFF :<span class="ch">STAFF</span></h3>
+        <h3>EXPERIANCE :<span>5 YEARS</span></h3>
+        </div>
+    </div>
+
+    
+
+    <img src="{% static 'images/college.png' %}" alt="" width="400px" height="100px">
+
+    <div class="content" >
+       <h2 class="about">About</h2>
+       <h3 class="quetion">what is CDIO ?<h3>
+       <p>CDIO are trademarked initiali for Conceive Design Implement Operate. The CDIO Initiative is an educational framework that stresses engineering fundamentals set in the context of conceiving, designing, implementing and operating real-world systems and products.</p>
+    </div>
+
+    <div class="popupt"></div>
+    <div class="popup-box"></div>
+    <div class="popdetail">
+      
+       <form class="content-de">
+        <li> Name </li> <input type="text" placeholder="Name">
+        <li> Roll NO</li> <input type="number" placeholder="Roll Number">
+        <li class="dept"> Department</li> <input type="text" placeholder="Department">
+        
+       </form>
+       <a style="text-decoration:none;",href="student.html"><button class="submit">Submit</button></a>
+     
+       <button class="cancel">Cancel</button>
+ 
+    </div>
+
+    
+
+
+
+
+  
+
+</body>
+</html>
